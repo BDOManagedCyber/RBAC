@@ -1,211 +1,211 @@
-﻿Ingebouwde rol;;Beschrijving;Id
-Inzender;Algemeen;Verleent volledige toegang om alle resources te beheren, maar biedt geen ondersteuning voor het toewijzen van rollen in azure RBAC, het beheren van toewijzingen in azure-blauw drukken of het delen van afbeeldings galerieën.;b24988ac-6180-42a0-ab88-20f7382dd24c
-Eigenaar;Algemeen;Hiermee wordt volledige toegang verleend voor het beheren van alle resources, inclusief de mogelijkheid om rollen toe te wijzen in azure RBAC.;8e3af657-a8ff-443c-a75c-2fe8c4bcb635
-Lezer;Algemeen;Bekijk alle resources, maar u kunt geen wijzigingen aanbrengen.;acdd72a7-3385-48ef-bd42-f606fba81ae7
-Beheerder van gebruikerstoegang;Algemeen;Hiermee beheert u de gebruikers toegang tot Azure-resources.;18d7d88d-d35e-4fb5-a5c3-7773c20a72d9
-Inzender voor klassieke virtuele machines;Compute;Hiermee beheert u klassieke virtuele machines, maar kunt u niet de toegang tot ze en niet het virtuele netwerk of opslag account waarmee ze zijn verbonden.;d73bb868-a0df-4d4d-bd69-98a00b01fccb
-Aanmelding voor de beheerder van de virtuele machine;Compute;Virtual Machines in de portal weer geven en u aanmelden als beheerder;1c0163c0-47e6-4577-8991-ea5c82e286e4
-Inzender voor virtuele machines;Compute;Met kunt u virtuele machines beheren, maar niet de toegang tot ze en niet het virtuele netwerk of opslag account waarmee ze zijn verbonden.;9980e02c-c2be-4d73-94e8-173b1dc7cf3c
-Gebruikers aanmelding voor de virtuele machine;Compute;Bekijk Virtual Machines in de portal en meld u aan als een gewone gebruiker.;fb879df8-f326-4884-b1cf-06f3ad86be52
-Inzender voor CDN-eind punten;Netwerken;Kan CDN-eind punten beheren, maar kan geen toegang verlenen aan andere gebruikers.;426e0c7f-0c7e-4658-b36f-ff54d6c29b45
-CDN-eindpunt lezer;Netwerken;Kan CDN-eind punten weer geven, maar kan geen wijzigingen aanbrengen.;871e35f6-b5c1-49cc-a043-bde969a0f2cd
-Inzender voor CDN-profiel;Netwerken;Kan CDN-profielen en de bijbehorende eind punten beheren, maar kan geen toegang verlenen aan andere gebruikers.;ec156ff8-a8d1-4d15-830c-5b80698ca432
-CDN-profiel lezer;Netwerken;Kan CDN-profielen en de bijbehorende eind punten weer geven, maar kan geen wijzigingen aanbrengen.;8f96442b-4075-438f-813d-ad51ab4019af
-Inzender voor klassieke netwerken;Netwerken;Hiermee beheert u klassieke netwerken, maar hebt u geen toegang tot de netwerk bestanden.;b34d265f-36f7-4a0d-a4d4-e158ca92e90f
-Inzender DNS-zone;Netwerken;Met kunt u DNS-zones en-record sets beheren in Azure DNS, maar kunt u niet bepalen wie toegang heeft tot de groepen.;befefa01-2a29-4197-83a8-272ff33ce314
-Inzender voor netwerken;Netwerken;Hiermee kunt u netwerken beheren, maar niet de toegang tot de netwerk bestanden.;4d97b98b-1d4f-4787-a291-c67834d212e7
-Inzender voor Privé-DNS-zone;Netwerken;Hiermee kunt u privé-DNS-zone bronnen beheren, maar niet de virtuele netwerken waaraan ze zijn gekoppeld.;b12aa53e-6015-4669-85d0-8515ebb3ae7f
-Inzender Traffic Manager;Netwerken;Hiermee beheert u Traffic Manager profielen, maar kunt u niet bepalen wie er toegang tot heeft.;a4b10055-b0c7-44c2-b00f-c7b5b3550cf7
-AVERE-bijdrager;Storage;Kan een avere vFXT-cluster maken en beheren.;4f8fab4f-1852-4a58-a46a-8eaf358af14a
-AVERE-operator;Storage;Wordt gebruikt door het avere vFXT-cluster voor het beheren van het cluster;c025889f-8102-4ebf-b32c-fc0c6f0c6bd9
-Back-upinzender;Storage;Hiermee kunt u de back-upservice beheren, maar geen kluizen maken en anderen toegang verlenen;5e467623-bb1f-42f4-a55d-6e525e11384b
-Back-upoperator;Storage;Hiermee kunt u back-upservices beheren, behalve het verwijderen van back-ups, het maken van een kluis en het verlenen van toegang;00c29273-979b-4161-815c-10b084fb9324
-Back-uplezer;Storage;Kan back-upservices weer geven, maar kan geen wijzigingen aanbrengen;a795c7a0-d4a2-40c1-ae25-d81f01202912
-Inzender voor klassieke opslag accounts;Storage;Hiermee kunt u klassieke opslag accounts beheren, maar niet de toegang tot de account.;86e8f5dc-a6e9-4c67-9d15-de283e8eac25
-Service functie voor de sleutel operator voor klassieke opslag accounts;Storage;De sleutel operators voor klassieke opslag accounts zijn toegestaan om sleutels weer te geven en opnieuw te genereren voor klassieke opslag.;985d6b00-f706-48f5-a6fe-d0ca12fb668d
-Inzender Data Box;Storage;Hiermee kunt u alles beheren onder Data Box Service, behalve dat anderen toegang verlenen.;add466c9-e687-43fc-8d98-dfcf8d720be5
-Data Box lezer;Storage;Met kunt u de Data Box-Service beheren, met uitzonde ring van order gegevens maken of bewerken en anderen toegang verlenen.;028f4ed7-e2a9-465e-a8f4-9c0ffdfdc027
-Data Lake Analytics-ontwikkelaar;Storage;Hiermee kunt u uw eigen taken verzenden, bewaken en beheren, maar geen Data Lake Analytics accounts maken of verwijderen.;47b7735b-770E-4598-A7DA-8b91488b4c88
-Lezer en gegevens toegang;Storage;Hiermee kunt u alles weer geven, maar kunt u geen opslag account of opgenomen resource verwijderen of maken. Ook wordt lees-/schrijftoegang tot alle gegevens in een opslag account toegestaan via toegang tot de sleutel van het opslag account.;c12c1c16-33a1-487b-954d-41c89c60f349
-Inzender voor opslagaccounts;Storage;Hiermee staat u het beheer van opslag accounts toe. Biedt toegang tot de account sleutel, die kan worden gebruikt om toegang te krijgen tot gegevens via een gedeelde sleutel autorisatie.;17d1049b-9a84-46fb-8f53-869881c3d3ab
-Functie Service-sleutel operator van opslag account;Storage;Kan de toegangs sleutels voor het opslag account weer geven en opnieuw genereren.;81a9662b-bebf-436f-a333-f67b29880f12
-Inzender voor Storage Blob-gegevens;Storage;Azure Storage containers en blobs lezen, schrijven en verwijderen. Zie machtigingen voor het aanroepen van BLOB-en wachtrij gegevensvoor meer informatie over welke acties vereist zijn voor een bepaalde gegevens bewerking.;ba92f5b4-2d11-453d-a403-e96b0029c9fe
-Eigenaar van opslagblobgegevens;Storage;Biedt volledige toegang tot Azure Storage BLOB-containers en-gegevens, met inbegrip van het toewijzen van POSIX-toegangs beheer. Zie machtigingen voor het aanroepen van BLOB-en wachtrij gegevensvoor meer informatie over welke acties vereist zijn voor een bepaalde gegevens bewerking.;b7e6dc6d-f1e8-4753-8033-0f276bb0955b
-Lezer voor opslagblobgegevens;Storage;Azure Storage containers en blobs lezen en weer geven. Zie machtigingen voor het aanroepen van BLOB-en wachtrij gegevensvoor meer informatie over welke acties vereist zijn voor een bepaalde gegevens bewerking.;2a2b9908-6ea1-4ae2-8e65-a410df84e7d1
-Delegering van opslag-BLOB;Storage;Een sleutel voor gebruikers overdracht ophalen, die vervolgens kan worden gebruikt om een gedeelde toegangs handtekening te maken voor een container of BLOB die is ondertekend met Azure AD-referenties. Zie een gebruiker delegering Sa's makenvoor meer informatie.;db58b8e5-c6ad-4a2a-8342-4190687cbf4a
-Inzender voor opslagbestandsgegevens via SMB-share;Storage;Hiermee wordt lees-, schrijf-en verwijder toegang voor bestanden/mappen in azure-bestands shares toegestaan. Deze rol heeft geen ingebouwd equivalent op Windows-bestands servers.;0c867c2a-1d8c-454a-a3db-ab2ea1bdc8bb
-Inzender met verhoogde bevoegdheden voor opslagbestandsgegevens via SMB-share;Storage;Hiermee kunt u Acl's voor lezen, schrijven, verwijderen en wijzigen van bestanden/mappen in azure-bestands shares. Deze rol is gelijk aan een ACL van de bestands share die moet worden gewijzigd op Windows-bestands servers.;a7264617-510b-434b-a828-9731dc254ea7
-Lezer voor opslagbestandgegevens via SMB-share;Storage;Hiermee staat u lees toegang toe voor bestanden/mappen in azure-bestands shares. Deze rol is gelijk aan een ACL voor bestands shares van lezen op Windows-bestands servers.;aba4ae5f-2193-4029-9191-0cb91df5e314
-Inzender voor opslag wachtrij gegevens;Storage;Lees-, schrijf-en verwijder Azure Storage-wacht rijen en-wachtrij berichten. Zie machtigingen voor het aanroepen van BLOB-en wachtrij gegevensvoor meer informatie over welke acties vereist zijn voor een bepaalde gegevens bewerking.;974c5e8b-45b9-4653-ba55-5f855dd0fb88
-Processor voor gegevens berichten van de opslag wachtrij;Storage;Een bericht uit een Azure Storage wachtrij bekijken, ophalen en verwijderen. Zie machtigingen voor het aanroepen van BLOB-en wachtrij gegevensvoor meer informatie over welke acties vereist zijn voor een bepaalde gegevens bewerking.;8a0f0c08-91a1-4084-bc3d-661d67233fed
-Afzender gegevens bericht van opslag wachtrij;Storage;Berichten toevoegen aan een Azure Storage wachtrij. Zie machtigingen voor het aanroepen van BLOB-en wachtrij gegevensvoor meer informatie over welke acties vereist zijn voor een bepaalde gegevens bewerking.;c6a89b2d-59bc-44d0-9896-0f6e12d7b80a
-Gegevens lezer van de opslag wachtrij;Storage;Azure Storage-wacht rijen en-wachtrij berichten lezen en weer geven. Zie machtigingen voor het aanroepen van BLOB-en wachtrij gegevensvoor meer informatie over welke acties vereist zijn voor een bepaalde gegevens bewerking.;19e7f393-937e-4f77-808e-94535e297925
-Inzender voor Azure Maps gegevens;Web;Hiermee wordt toegang verleend tot lees-, schrijf-en verwijder toegang om gerelateerde gegevens vanuit een Azure Maps-account toe te wijzen.;8f5e0ce6-4f7b-4dcf-bddf-e6f48634a204
-Gegevens lezer Azure Maps;Web;Hiermee wordt toegang verleend om gerelateerde gegevens te lezen vanuit een Azure Maps-account.;423170ca-a8f6-4b0f-8487-9e4eb8f49bfa
-Inzender Search Service;Web;Hiermee kunt u zoek services beheren, maar niet de toegang tot ze.;7ca78c08-252a-4471-8644-bb5ff32d4ba0
-Signaal/AccessKey-lezer;Web;Toegangs sleutels voor de seingevings service lezen;04165923-9d83-45d5-8227-78b77b0a687e
-Seingevings app-server (preview-versie);Web;Hiermee wordt uw app server-toegangs signaal service met AAD-verificatie opties.;420fcaa2-552c-430f-98ca-3264be4806c7
-Inzender bijdrager;Web;Signalerings service resources maken, lezen, bijwerken en verwijderen;8cf5e20a-e4b2-4e9d-b3a1-5ceb692c2761
-Inzender server zonder signaal (preview-versie);Web;Hiermee kan uw app Access-service in de serverloze modus met AAD-verificatie opties.;fd53cd77-2268-407a-8f46-7e7863d0f521
-Eigenaar van de seingevings service (preview-versie);Web;Volledige toegang tot REST Api's van de Azure signalerings service;7e4f1700-ea5a-4f59-8f37-079cfe29dce3
-Signaal-service lezer (preview-versie);Web;Alleen-lezen toegang tot REST Api's van de Azure signalerings service;ddde6b66-c0df-4114-a159-3618637b3035
-Inzender voor webabonnementen;Web;Hiermee kunt u de Webabonnementen voor websites beheren, maar niet de toegang tot de abonnementen.;2cc479cb-7b4d-49a8-b449-8c00fd0f0a4b
-Website bijdrager;Web;Hiermee kunt u websites beheren (niet Webabonnementen), maar niet de toegang tot de sites.;de139f84-1756-47ae-9be6-808fbbe84772
-AcrDelete;Containers;ACR verwijderen;c2f4ef07-c644-48eb-af81-4b1b4947fb11
-AcrImageSigner;Containers;ACR-installatie kopie ondertekenaar;6cef56e8-d556-48e5-a04f-b8e64114680f
-AcrPull;Containers;ACR pull;7f951dda-4ed3-4680-a7ca-43fe172d538d
-AcrPush;Containers;ACR-push;8311e382-0749-4cb8-b61a-304f252e45ec
-AcrQuarantineReader;Containers;ACR quarantaine gegevens lezer;cdda3590-29a3-44f6-95f2-9f980659eb04
-AcrQuarantineWriter;Containers;ACR quarantaine gegevens schrijver;c8d4ff99-41c3-41a8-9f60-21dfdad59608
-Rol van Cluster beheerder voor Azure Kubernetes-service;Containers;Lijst met actie voor cluster beheer referenties.;0ab0b1a8-8aac-4efd-b8c2-3ee1fb270be8
-Gebruikersrol Azure Kubernetes service-cluster;Containers;Geef een lijst actie voor de gebruikers referenties van het cluster op.;4abbcc35-e782-43d8-92c5-2d3f1bd2253f
-Rol van de Azure Kubernetes service-bijdrager;Containers;Hiermee wordt toegang verleend voor het lezen en schrijven van Azure Kubernetes Service-clusters;ed7f3fbd-7b88-4dd4-9017-9adb7ce333f8
-RBAC-beheerder voor Azure Kubernetes service;Containers;Hiermee kunt u alle resources beheren onder cluster/naam ruimte, behalve voor het bijwerken of verwijderen van resource quota's en naam ruimten.;3498e952-d568-435e-9b2c-8d77e338d7f7
-De Azure Kubernetes service RBAC-cluster beheerder;Containers;Hiermee kunt u alle resources in het cluster beheren.;b1ff04bb-8a4e-4dc4-8eb5-8693973ce19b
-RBAC-lezer van de Azure Kubernetes service;Containers;Hiermee staat u alleen-lezen toegang toe om de meeste objecten in een naam ruimte weer te geven. Het is niet toegestaan om weergave rollen of functie bindingen te bekijken. Deze rol staat geen weergave geheimen toe, omdat het lezen van de inhoud van geheimen toegang biedt tot ServiceAccount-referenties in de naam ruimte, waardoor API-toegang zou worden toegestaan als ServiceAccount in de naam ruimte (een vorm van bevoegdheden escalation). Als deze rol op het cluster bereik wordt toegepast, krijgt u toegang tot alle naam ruimten.;7f6c6a51-bcf8-42ba-9220-52d62157d7db
-RBAC-schrijver van Azure Kubernetes service;Containers;Hiermee wordt lees-/schrijftoegang tot de meeste objecten in een naam ruimte toegestaan. Deze rol staat het weer geven of wijzigen van rollen of rollen bindingen niet toe. Met deze rol kunt u echter wel toegang krijgen tot geheimen en een ServiceAccount uitvoeren in de naam ruimte, zodat het kan worden gebruikt om de API-toegangs niveaus van een wille keurige ServiceAccount in de naam ruimte te verkrijgen. Als deze rol op het cluster bereik wordt toegepast, krijgt u toegang tot alle naam ruimten.;a7ffa36f-339b-4b5c-8bdf-e2c188b2c0eb
-Rol van Cosmos DB-account lezer;Databases;Kan gegevens van Azure Cosmos DB-account lezen. Zie DocumentDB account Inzender voor het beheren van Azure Cosmos DB accounts.;fbdf93bf-df7d-467e-a4d2-9458aa1360c8
-Cosmos DB-operator;Databases;Hiermee kunt u Azure Cosmos DB accounts beheren, maar geen toegang tot gegevens. Hiermee voor komt u toegang tot account sleutels en verbindings reeksen.;230815da-be43-4aae-9cb4-875f7bd000aa
-CosmosBackupOperator;Databases;Kan een terugzet aanvraag indienen voor een Cosmos DB-Data Base of een container voor een account;db7b14f2-5adf-42da-9f96-f2ee17bab5cb
-CosmosRestoreOperator;Databases;Kan de actie voor het herstellen van Cosmos DB database account met doorlopende back-upmodus uitvoeren;5432c526-bc82-444a-b7ba-57c5b0b5b34f
-Inzender voor DocumentDB-accounts;Databases;Kan Azure Cosmos DB accounts beheren. Azure Cosmos DB is voorheen bekend als DocumentDB.;5bd9cd88-fe45-4216-938b-f97437e15450
-Inzender Redis Cache;Databases;Hiermee kunt u redis-caches beheren, maar niet de toegang tot deze bestanden.;e0f68234-74aa-48ed-b826-c38b57376e17
-Inzender voor SQL-data base;Databases;Hiermee kunt u SQL-data bases beheren, maar niet de toegang tot ze. U kunt ook hun beveiligings beleid of de bovenliggende SQL-servers niet beheren.;9b7fa17d-e63e-47b0-bb0a-15c516ac86ec
-Inzender voor SQL Managed instance;Databases;Hiermee beheert u beheerde SQL-instanties en de vereiste netwerk configuratie, maar kunt u geen toegang verlenen aan anderen.;4939a1f6-9ae0-4e48-a1e0-f2cbe897382d
-SQL-beveiligingsbeheerder;Databases;Hiermee kunt u het beveiligings beleid van SQL-servers en-data bases beheren, maar niet de toegang tot de services.;056cd41c-7e88-42e1-933e-88ba6a50c9c3
-Inzender SQL Server;Databases;Hiermee kunt u SQL-servers en-data bases beheren, maar niet de toegang tot ze en niet het beveiligings beleid.;6d8ee4ec-f05a-4a1d-8b00-a9b17e38b437
-Eigenaar van Azure Event Hubs-gegevens;Analyse;Hiermee krijgt u volledige toegang tot Azure Event Hubs-resources.;f526a384-b230-433a-b45c-95f59c4a2dec
-Gegevens ontvanger van Azure Event Hubs;Analyse;Hiermee krijgt u toegang tot Azure Event Hubs-resources.;a638d3c7-ab3a-418d-83e6-5f17a39d4fde
-Afzender van Azure Event Hubs gegevens;Analyse;Hiermee wordt toegang tot Azure Event Hubs-resources verzonden.;2b629674-e913-4c01-ae53-ef4638d8f975
-Inzender Data Factory;Analyse;Het maken en beheren van gegevens fabrieken, evenals onderliggende resources.;673868aa-7521-48a0-acc6-0f60742d39f5
-Gegevens opschoner;Analyse;Persoonlijke gegevens verwijderen uit een Log Analytics-werk ruimte.;150f5e0c-0603-4f03-8c7f-cf70034c4e90
-HDInsight-cluster operator;Analyse;Hiermee kunt u HDInsight-cluster configuraties lezen en wijzigen.;61ed4efc-fab3-44fd-b111-e24485cc132a
-Inzender voor HDInsight Domain Services;Analyse;Kan gerelateerde bewerkingen die betrekking hebben op domein services lezen, maken, wijzigen en verwijderen die nodig zijn voor HDInsight-Enterprise Security Package;8d8d5a11-05d3-4bda-a417-a08778121c7c
-Inzender van Log Analytics;Analyse;"Log Analytics Inzender kan alle bewakings gegevens lezen en controle-instellingen bewerken. Het bewerken van bewakings instellingen omvat het toevoegen van de VM-extensie aan Vm's; lezen van opslag account sleutels om het verzamelen van logboeken van Azure Storage te kunnen configureren. Automation-accounts maken en configureren; oplossingen toevoegen; en het configureren van Azure Diagnostics voor alle Azure-resources.";92aaf0da-9dab-42b6-94a3-d43ce8d16293
-Lezer van Log Analytics;Analyse;Log Analytics Reader kan alle bewakings gegevens weer geven en doorzoeken en controle-instellingen weer geven, inclusief het weer geven van de configuratie van Azure Diagnostics op alle Azure-resources.;73c42c96-874c-492b-b04d-ab87d138a893
-Controle sfeer liggen data curator;Analyse;Met de micro soft. controle sfeer liggen data curator kunnen catalogus gegevensobjecten worden gemaakt, gelezen, gewijzigd en verwijderd en worden relaties tussen objecten tot stand gebracht. Deze functie is beschikbaar als preview-versie en kan worden gewijzigd.;8a3c2885-9b38-4fd2-9d99-91af537c1347
-Gegevens lezer controle sfeer liggen;Analyse;De gegevens lezer van micro soft. controle sfeer liggen kan catalogus gegevensobjecten lezen. Deze functie is beschikbaar als preview-versie en kan worden gewijzigd.;ff100721-1b9d-43d8-af52-42b69c1272db
-Controle sfeer liggen-gegevens bron beheerder;Analyse;De gegevens bron beheerder van micro soft. controle sfeer liggen kan gegevens bronnen en gegevens scans beheren.Deze functie is beschikbaar als preview-versie en kan worden gewijzigd.;200bba9e-f0c8-430f-892b-6f0794863803
-Inzender van schemaregisters (preview);Analyse;Schemaregistergroepen en schema's lezen, schrijven en verwijderen.;5dffeca3-4936-4216-b2bc-10343a5abb25
-Lezer van schemaregisters (preview);Analyse;Schemaregistergroepen en schema's lezen en weergeven.;2c56ea50-c6b3-40a6-83c0-9d98858bc7d2
-Toegang tot Block Chain-leden knooppunt (preview-versie);Blockchain;Hiermee wordt toegang tot Block Chain-leden knooppunten toegestaan;31a002a1-acaf-453e-8a5b-297c9ca1ea24
-Inzender Cognitive Services;AI + machine learning;Hiermee kunt u sleutels van Cognitive Services maken, lezen, bijwerken, verwijderen en beheren.;25fbc0a9-bd7c-42a3-aa1a-3b75d497ee68
-Cognitive Services Custom Vision Inzender;AI + machine learning;Volledige toegang tot het project, inclusief de mogelijkheid om projecten weer te geven, te maken, te bewerken of te verwijderen.;c1ff6cc2-C111-46fe-8896-e0ef812ad9f3
-Implementatie van Cognitive Services Custom Vision;AI + machine learning;Modellen publiceren, publicatie ongedaan maken of exporteren.Implementatie kan het project weer geven, maar kan het niet bijwerken.;5c4089e1-6d96-4d2f-b296-c1bc7137275f
-Cognitive Services Custom Vision Labeler;AI + machine learning;Bekijk, trainings afbeeldingen bewerken en de afbeeldings Tags maken, toevoegen, verwijderen of verwijderen.Labelers kunnen het project weer geven, maar kunnen andere niet bijwerken dan trainingen en tags.;88424f51-ebe7-446f-bc41-7fa16989e96c
-Custom Vision lezer Cognitive Services;AI + machine learning;Alleen-lezen acties in het project. Lezers kunnen het project niet maken of bijwerken.;93586559-c37d-4a6b-ba08-b9f0940c2d73
-Cognitive Services Custom Vision trainer;AI + machine learning;Bekijk, bewerk projecten en train de modellen, inclusief de mogelijkheid om de modellen te publiceren, de publicatie ervan ongedaan te maken en te exporteren. Trainers kunnen het project niet maken of verwijderen.;0a5ae4ab-0d65-4eeb-be61-29fc9b54394b
-Cognitive Services gegevens lezer (preview-versie);AI + machine learning;Hiermee kunt u Cognitive Services gegevens lezen.;b59867f0-fa02-499b-be73-45a86b5b3e1c
-Cognitive Services metrics Advisor-beheerder;AI + machine learning;Volledige toegang tot het project, met inbegrip van de configuratie van het systeem niveau.;cb43c632-a144-4ec5-977c-e80c4affc34a
-Cognitive Services QnA Maker editor;AI + machine learning;U kunt een KB maken, bewerken, importeren en exporteren. U kunt geen KB publiceren of verwijderen.;f4cc2bf9-21be-47a1-bdf1-5c5804381025
-QnA Maker lezer Cognitive Services;AI + machine learning;Laten we alleen een KB lezen en testen.;466ccd10-b268-4a11-b098-b4849f024126
-Cognitive Services gebruiker;AI + machine learning;Hiermee kunt u de sleutels van Cognitive Services lezen en weer geven.;a97b65f3-24c7-4388-baec-2e87135dc908
-Beheerder apparaat bijwerken;Internet of things;Biedt volledige toegang tot beheer-en inhouds bewerkingen;02ca0879-e8e4-47a5-a61e-5c618b76e64a
-Beheerder van de inhoud van het apparaat bijwerken;Internet of things;Biedt volledige toegang tot inhouds bewerkingen;0378884a-3af5-44ab-8323-f5b22f9f3c98
-Lezer inhoud apparaat bijwerken;Internet of things;Hiermee krijgt u lees toegang tot inhouds bewerkingen, maar kunt u geen wijzigingen aanbrengen;d1ee9a80-8b14-47f0-bdc2-f4a351625a7b
-Beheerder voor update-implementaties van apparaten;Internet of things;Biedt volledige toegang tot beheer bewerkingen;e4237640-0e3d-4a46-8fda-70bc94856432
-Lezer voor update-implementaties van apparaat;Internet of things;Geeft u lees toegang tot beheer bewerkingen, maar maakt geen wijzigingen mogelijk;49e2f5d2-7741-4835-8efa-19e1fe35e47f
-Apparaat bijwerken lezer;Internet of things;Geeft u lees toegang tot beheer-en inhouds bewerkingen, maar maakt geen wijzigingen mogelijk;e9dba6fb-3d52-4cf0-bce3-f06ce71b9e0f
-Externe rendering-beheerder;Gemengde realiteit;Biedt gebruikers de mogelijkheid om de mogelijkheden voor het omzetten van sessies, rendering en diagnose te beheren voor externe rendering in azure;3df8b902-2a6f-47c7-8cc5-360e9b272a7e
-Client voor externe Rendering;Gemengde realiteit;Biedt gebruikers de mogelijkheid om sessie, rendering en diagnose te beheren voor de externe rendering van Azure.;d39065c4-c120-43c9-ab0a-63eed9795f0a
-Inzender voor ruimtelijke ankers;Gemengde realiteit;Hiermee kunt u ruimtelijke ankers in uw account beheren, maar niet verwijderen;8bbe83f1-e2a6-4df7-8cb4-4e04d4e5c827
-Eigenaar van ruimtelijk ankers;Gemengde realiteit;Hiermee kunt u ruimtelijke ankers in uw account beheren, met inbegrip van het verwijderen ervan;70bbe301-9835-447d-afdd-19eb3167307c
-Lezer van ruimtelijk ankers-account;Gemengde realiteit;Hiermee kunt u eigenschappen van ruimtelijke ankers in uw account zoeken en lezen;5d51204f-eb77-4b1c-b86a-2ec626c49413
-Inzender van API Management-service;Integratie;Kan de service en de Api's beheren;312a565d-c81f-4fd8-895a-4e21e48d571c
-Functie API Management service operator;Integratie;Kan de service beheren, maar niet de Api's;e022efe7-f5ba-4159-bbe4-b44f577e9b61
-API Management functie Service lezer;Integratie;Alleen-lezen toegang tot de service en Api's;71522526-b88f-4d52-b57f-d31fc3546d0d
-Eigenaar van app-configuratie gegevens;Integratie;Hiermee krijgt u volledige toegang tot de app-configuratie gegevens.;5ae67dd6-50cb-40e7-96ff-dc2bfa4b606b
-Gegevens lezer app-configuratie;Integratie;Hiermee staat u lees toegang toe voor app-configuratie gegevens.;516239f1-63e1-4d78-a4de-a74fb236a071
-Gegevens eigenaar Azure Service Bus;Integratie;Hiermee krijgt u volledige toegang tot Azure Service Bus-resources.;090c5cfd-751d-490a-894a-3ce6f1109419
-Gegevens ontvanger Azure Service Bus;Integratie;Hiermee krijgt u toegang tot Azure Service Bus-resources.;4f6d3b9b-027b-4f4c-9142-0e5a2a2247e0
-Afzender van Azure Service Bus gegevens;Integratie;Hiermee kunt u toegang tot Azure Service Bus resources verzenden.;69a216fc-b8fb-44d8-bc22-1f3c2cd27a39
-Registratie-eigenaar Azure Stack;Integratie;Hiermee kunt u Azure Stack registraties beheren.;6f12a6df-dd06-4f3e-bcb1-ce8be600526a
-EventGrid-bijdrager;Integratie;Hiermee kunt u EventGrid-bewerkingen beheren.;1e241071-0855-49ea-94dc-649edcd759de
-EventGrid EventSubscription-bijdrager;Integratie;Hiermee kunt u bewerkingen voor EventGrid-gebeurtenis abonnementen beheren.;428e0ff0-5e57-4d9c-a221-2c70d0e0a443
-EventGrid EventSubscription-lezer;Integratie;Hiermee kunt u EventGrid-gebeurtenis abonnementen lezen.;2414bbcf-6497-4faf-8c65-045460748405
-Inzender voor FHIR-gegevens;Integratie;Rol maakt gebruiker of Principal volledige toegang tot FHIR-gegevens;5a1fc7df-4bf1-4951-a576-89034ee01acd
-FHIR-gegevens exporteur;Integratie;Rol staat gebruiker of Principal toe om FHIR-gegevens te lezen en exporteren;3db33094-8700-4567-8da5-1501d4e7e843
-Gegevens lezer FHIR;Integratie;De rol staat gebruikers of Principal toe om FHIR gegevens te lezen;4c8d0bbc-75d3-4935-991f-5f3c56d81508
-FHIR-gegevens schrijver;Integratie;Rol staat gebruiker of Principal toe om FHIR-gegevens te lezen en te schrijven;3f88fce4-5892-4214-ae73-ba5294559913
-Inzender Integratieserviceomgeving;Integratie;Hiermee kunt u de integratie service omgevingen beheren, maar niet de toegang tot ze.;a41e2c5b-bd99-4a07-88f4-9bf657a760b8
-Integratieserviceomgeving-ontwikkelaar;Integratie;Hiermee kunnen ontwikkel aars werk stromen, integratie accounts en API-verbindingen maken en bijwerken in integratie service omgevingen.;c7aa55d3-1abb-444a-a5ca-5e51e485d6ec
-Inzender voor Intelligent Systems-account;Integratie;Hiermee kunt u intelligente Systems-accounts beheren, maar niet de toegang tot ze.;03a6d094-3444-4b3d-88af-7477090a9e5e
-Inzender voor logische apps;Integratie;Hiermee kunt u logische apps beheren, maar niet wijzigen.;87a39d53-fc1b-424a-814c-f7e04687dc9e
-Logische app-operator;Integratie;Hiermee kunt u logische apps lezen, inschakelen en uitschakelen, maar niet bewerken of bijwerken.;515c2055-d9d4-4321-b1b9-bd0c9a0f79fe
-Inzender beheerde identiteit;Identiteit;Aan de gebruiker toegewezen identiteit maken, lezen, bijwerken en verwijderen;e40ec5ca-96e0-45a2-b4ff-59039f2c2b59
-Beheerde identiteits operator;Identiteit;Door gebruiker toegewezen identiteit lezen en toewijzen;f1a07417-d97a-45cb-824c-7a7467783830
-Bijdrager aan verklaring;Beveiliging;Kan de Attestation-provider instantie lezen of verwijderen;bbf86eb8-f7b4-4cce-96e4-18cddf81d86e
-Attestation-lezer;Beveiliging;Kan de eigenschappen van de Attestation-provider lezen;fd1bd22b-8476-40bc-a0bc-69b95687b9f3
-Azure Sentinel Contributor;Beveiliging;Azure Sentinel Contributor;ab8e14d6-4a74-4a29-9ba8-549422addade
-Azure Sentinel Reader;Beveiliging;Azure Sentinel Reader;8d289c81-5878-46d4-8554-54e1e3d8b5cb
-Azure Sentinel Responder;Beveiliging;Azure Sentinel Responder;3e150937-b8fe-4cfb-8069-0eaf05ecd056
-Key Vault beheerder;Beveiliging;Alle gegevenslaag bewerkingen uitvoeren op een sleutel kluis en alle objecten hierin, met inbegrip van certificaten, sleutels en geheimen. Kan geen sleutel kluis resources beheren of roltoewijzingen beheren. Werkt alleen voor sleutel kluizen die gebruikmaken van het machtigings model ' Azure op rollen gebaseerd toegangs beheer '.;00482a5a-887f-4fb3-b363-3b7fe8e74483
-Key Vault-certificerings medewerker;Beveiliging;Acties uitvoeren op de certificaten van een sleutel kluis, met uitzonde ring van machtigingen beheren. Werkt alleen voor sleutel kluizen die gebruikmaken van het machtigings model ' Azure op rollen gebaseerd toegangs beheer '.;a4417e6f-fecd-4de8-b567-7b0420556985
-Inzender Key Vault;Beveiliging;Sleutel kluizen beheren, maar u kunt geen rollen toewijzen in azure RBAC en biedt geen toegang tot geheimen, sleutels of certificaten.;f25e0fa2-a7c8-4377-a976-54943a77a395
-Crypto medewerker Key Vault;Beveiliging;Acties uitvoeren op de sleutels van een sleutel kluis, met uitzonde ring van machtigingen beheren. Werkt alleen voor sleutel kluizen die gebruikmaken van het machtigings model ' Azure op rollen gebaseerd toegangs beheer '.;14b46e9e-c2b7-41b4-b07b-48a6ebf60603
-Versleutelings gebruiker van crypto grafie-service Key Vault;Beveiliging;Lees de meta gegevens van sleutels en voer terugloop/uitlopende bewerkingen uit. Werkt alleen voor sleutel kluizen die gebruikmaken van het machtigings model ' Azure op rollen gebaseerd toegangs beheer '.;e147488a-f6f5-4113-8e2d-b22465e65bf6
-Gebruiker van crypto grafie Key Vault;Beveiliging;Voer cryptografische bewerkingen uit met behulp van sleutels. Werkt alleen voor sleutel kluizen die gebruikmaken van het machtigings model ' Azure op rollen gebaseerd toegangs beheer '.;12338af0-0e69-4776-bea7-57ae8d297424
-Key Vault lezer;Beveiliging;Lees de meta gegevens van sleutel kluizen en de bijbehorende certificaten, sleutels en geheimen. Kan geen gevoelige waarden lezen, zoals geheime inhoud of sleutel materiaal.Werkt alleen voor sleutel kluizen die gebruikmaken van het machtigings model ' Azure op rollen gebaseerd toegangs beheer '.;21090545-7ca7-4776-b22c-e363652d74d2
-Functionaris voor Key Vault geheimen;Beveiliging;Acties uitvoeren op de geheimen van een sleutel kluis, met uitzonde ring van machtigingen beheren. Werkt alleen voor sleutel kluizen die gebruikmaken van het machtigings model ' Azure op rollen gebaseerd toegangs beheer '.;b86a8fe4-44ce-4948-aee5-eccb2c155cd7
-Key Vault geheimen gebruiker;Beveiliging;Geheime inhoud lezen. Werkt alleen voor sleutel kluizen die gebruikmaken van het machtigings model ' Azure op rollen gebaseerd toegangs beheer '.;4633458b-17de-408a-b874-0445c86b69e6
-Beheerde HSM-Inzender;Beveiliging;Hiermee kunt u beheerde HSM-groepen beheren, maar niet de toegang tot de Pools.;18500a29-7fe2-46b2-a342-b16a415e101d
-Beveiligingsbeheerder;Beveiliging;Machtigingen voor Security Center weer geven en bijwerken. Dezelfde machtigingen als de rol van beveiligings lezer en kunnen ook het beveiligings beleid bijwerken en waarschuwingen en aanbevelingen negeren.;fb1c8493-542b-48eb-b624-b4c8fea62acd
-Inzender voor beveiligings beoordeling;Beveiliging;Hiermee kunt u evaluaties naar Security Center pushen;612c2aa1-cb24-443b-ac28-3ab7272de6f5
-Beveiligings beheer (verouderd);Beveiliging;Dit is een verouderde rol. Gebruik in plaats daarvan beveiligings beheerder.;e3d13bf0-dd5a-482e-ba6b-9b8433878d10
-Beveiligingslezer;Beveiliging;Machtigingen voor Security Center weer geven. Kan aanbevelingen, waarschuwingen, een beveiligings beleid en beveiligings status weer geven, maar kan geen wijzigingen aanbrengen.;39bc4728-0917-49c7-9d2c-d95423bc2eb4
-DevTest Labs-gebruiker;DevOps;Met kunt u verbinding maken met uw virtuele machines in uw Azure DevTest Labs, deze starten, opnieuw opstarten en afsluiten.;76283e04-6283-4c54-8f91-bcf1374a3c64
-Lab-Maker;DevOps;Met kunt u nieuwe Labs maken onder uw Azure Lab-accounts.;b97fb8bc-a8b2-4522-a38b-dd33c7e65ead
-Inzender voor Application Insights onderdelen;Controle;Kan Application Insights onderdelen beheren;ae349356-3a1b-4a5e-921d-050484c6347e
-Application Insights Snapshot Debugger;Controle;Geeft gebruikers machtigingen voor het weer geven en downloaden van moment opnamen van fout opsporing die zijn verzameld met de Application Insights Snapshot Debugger. Houd er rekening mee dat deze machtigingen niet zijn opgenomen in de rollen eigenaar of Inzender . Wanneer gebruikers de Application Insights Snapshot Debugger rol geven, moet u de rol rechtstreeks aan de gebruiker toekennen. De rol wordt niet herkend wanneer deze wordt toegevoegd aan een aangepaste rol.;08954f03-6346-4c2e-81c0-ec3a5cfae23b
-Inzender bewaken;Controle;Kan alle bewakings gegevens lezen en controle-instellingen bewerken. Zie ook aan de slag met rollen, machtigingen en beveiliging met Azure monitor.;749f88d5-cbae-40b8-bcfc-e573ddc772fa
-De uitgever van metrische gegevens controleren;Controle;Hiermee schakelt u de metrische gegevens voor publicatie in op Azure-resources;3913510d-42f4-4e42-8a64-420c390055eb
-Bewakings lezer;Controle;Kan alle bewakings gegevens (metrieken, logboeken, enzovoort) lezen. Zie ook aan de slag met rollen, machtigingen en beveiliging met Azure monitor.;43d0d8ad-25c7-4714-9337-8ba259a9fe05
-Inzender voor werkmappen;Controle;Kan gedeelde werkmappen opslaan.;e8ddcd69-c73f-4f9f-9844-4100522f16ad
-Werkmap lezer;Controle;Kan werkmappen lezen.;b279062a-9be3-42a0-92ae-8b3cf002ec4d
-Automation-taak operator;Beheer + governance;Maak en beheer taken met behulp van Automation-Runbooks.;4fe576fe-1146-4730-92eb-48519fa6bf9f
-Automation-operator;Beheer + governance;Automatiserings operatoren kunnen taken starten, stoppen, onderbreken en hervatten;d3881f73-407a-4167-8283-e981cbba0404
-Automation-Runbook-operator;Beheer + governance;Runbook-eigenschappen lezen: om taken van het Runbook te kunnen maken.;5fb5aef8-1081-4b8e-bb16-9d5d0385bab5
-Onboarding van met Azure verbonden computer;Beheer + governance;Kan onboarding van met Azure verbonden computers uitvoeren.;b64e21ea-ac4e-4cdf-9dc9-5b892992bee7
-Resource beheerder van Azure Connected machine;Beheer + governance;Kan met Azure verbonden computers lezen, schrijven, verwijderen en onboarden.;cd570a14-e51a-42ad-bac8-bafd67325302
-Facturerings lezer;Beheer + governance;Hiermee staat u lees toegang tot facturerings gegevens toe;fa23ad8b-c56e-40d8-ac0c-ce449e1d2c64
-Blauwdrukinzender;Beheer + governance;Blauwdrukinzenders kunnen blauwdrukdefinities beheren, maar deze niet toewijzen.;41077137-e803-4205-871c-5a86e6a753b4
-Blauwdrukoperator;Beheer + governance;Kan bestaande gepubliceerde blauw drukken toewijzen, maar kan geen nieuwe blauw drukken maken. Houd er rekening mee dat dit alleen werkt als de toewijzing wordt uitgevoerd met een door de gebruiker toegewezen beheerde identiteit.;437d2ced-4a38-4302-8479-ed2bcb43d090
-Inzender Cost Management;Beheer + governance;Kan kosten bekijken en kosten configuratie beheren (bijvoorbeeld budgetten, exports);434105ed-43f6-45c7-a02f-909b2ba83430
-Cost Management lezer;Beheer + governance;Kan kosten gegevens en-configuratie weer geven (bijvoorbeeld budgetten, exports);72fafb9e-0641-4937-9268-a91bfd8191a3
-Beheerder hiërarchie-instellingen;Beheer + governance;Hiermee kunnen gebruikers hiërarchie-instellingen bewerken en verwijderen;350f8d15-c687-4448-8ae1-157740a3936d
-Kubernetes-cluster-Azure Arc-onboarding;Beheer + governance;Roldefinitie voor het autoriseren van elke gebruiker/service voor het maken van een connectedClusters-resource;34e09817-6cbe-4d01-b1a2-e0eac5743d41
-Rol Inzender beheerde toepassing;Beheer + governance;Maakt het mogelijk om beheerde toepassings resources te maken.;641177b8-a67a-45b9-a033-47bc880bb21e
-Rol beheerde toepassings operator;Beheer + governance;Hiermee kunt u acties voor beheerde toepassings bronnen lezen en uitvoeren;c7393b34-138c-406f-901b-d8cf2b17e6ae
-Lezer voor beheerde toepassingen;Beheer + governance;Hiermee kunt u bronnen in een beheerde app lezen en JIT-toegang aanvragen.;b9331d33-8a36-4f8c-b097-4f54124fdb44
-Rol voor registratie toewijzing beheerde services verwijderen;Beheer + governance;Met de functie voor registratie toewijzing van beheerde services verwijderen kan de Tenant gebruikers beheren de registratie toewijzing verwijderen die aan de Tenant is toegewezen.;91c1777a-f3dc-4fae-b103-61d183457e46
-Inzender beheer groep;Beheer + governance;Rol Inzender beheer groep;5d58bcaf-24a5-4b20-bdb6-eed9f69fbe4c
-Lezer beheer groep;Beheer + governance;Rol van lezer van beheer groep;ac63b705-f282-497d-ac71-919bf39d939d
-Nieuwe Inzender voor Relic APM-account;Beheer + governance;Hiermee kunt u New Relic Application Performance Management accounts en-toepassingen beheren, maar niet de toegang tot ze.;5d28c62d-5b37-4476-8438-e587778df237
-Policy Insights Data Writer (preview-versie);Beheer + governance;Hiermee wordt lees toegang tot bron beleid en schrijf toegang tot bron onderdeel beleids gebeurtenissen toegestaan.;66bb4e9e-b016-4a94-8249-4c0511c2be84
-Rol van operator voor quotum aanvragen;Beheer + governance;Lees en maak quota aanvragen, haal de status van de quotum aanvraag op en maak ondersteunings tickets.;0e5f05e5-9ab9-446b-b98d-1e2157c94125
-Reserve ring-verkoper;Beheer + governance;Hiermee kunt u reserve ringen kopen;f7b75c60-3036-4b75-91c3-6b41c27c1689
-Inzender voor resourcebeleid;Beheer + governance;Gebruikers met rechten voor het maken/wijzigen van het resource beleid, het maken van een ondersteunings ticket en het lezen van resources/hiërarchie.;36243c78-bf99-498c-9df9-86d9f8d28608
-Site Recovery-inzender;Beheer + governance;Hiermee kunt u Site Recovery-service beheren, behalve het maken van een kluis en roltoewijzing;6670b86e-a3f7-4917-ac9b-5d6ab1be4567
-Site Recovery-operator;Beheer + governance;Een failover en failback, maar geen andere Site Recovery beheer bewerkingen uitvoeren;494ae006-db33-4328-bf46-533a6560a3ca
-Site Recovery-lezer;Beheer + governance;Hiermee kunt u de Site Recovery status weer geven, maar geen andere beheer bewerkingen uitvoeren;dbaa88c4-0c30-4179-9fb3-46319faa6149
-Inzender voor ondersteunings aanvragen;Beheer + governance;Hiermee kunt u ondersteunings aanvragen maken en beheren;cfd33db0-3dd1-45e3-aa9d-cdbdf3b6f24e
-Inzender labelen;Beheer + governance;Hiermee kunt u tags op entiteiten beheren zonder dat u toegang hebt tot de entiteiten zelf.;4a9ae827-6dc8-4573-8ac7-8239d42aa03f
-Azure Digital Apparaatdubbels-gegevens eigenaar;Overige;Volledige Access-rol voor Digital Apparaatdubbels data-vlak;bcd981a7-7f74-457b-83e1-cceb9e632ffe
-Azure Digital Apparaatdubbels-gegevens lezer;Overige;Alleen-lezen rol voor Digital Apparaatdubbels data-vlak-eigenschappen;d57506d4-4c8d-48b1-8587-93c323f6a5a3
-BizTalk-bijdrager;Overige;Hiermee kunt u BizTalk Services beheren, maar niet de toegang tot de service.;5e3c6656-6cfa-4708-81fe-0de47ac73342
-Inzender voor bureau blad-Virtualisatiehost;Overige;Bijdrager van de toepassings groep bureau blad-virtualisatie.;86240b0e-9422-4c43-887b-b61143f32ba8
-Lezer van toepassings groep voor desktop-virtualisatie;Overige;Lezer van de toepassings groep bureau blad-virtualisatie.;aebf23d0-b568-4e86-b8f9-fe83a2c6ab55
-Inzender voor bureau blad-virtualisatie;Overige;Inzender van bureau blad-virtualisatie.;082f0a83-3be5-4ba1-904c-961cca79b387
-Inzender voor RD Virtualization hostgroep;Overige;Inzender van de hostgroep voor bureau blad-virtualisatie.;e307426c-f9b6-4e81-87de-d99efb3c32bc
-Lezer van hostgroep voor desktop-virtualisatie;Overige;Lezer van de hostgroep voor bureau blad-virtualisatie.;ceadfde2-b300-400a-ab7b-6143895aa822
-Desktop Virtualization-lezer;Overige;Lezer van bureau blad-virtualisatie.;49a72310-ab8d-41df-bbb0-79b649203868
-Host-operator voor bureau blad-Virtualisatiehost;Overige;Operator van de host van de bureau blad-Virtualisatiehost.;2ad6aaab-ead9-4eaa-8ac5-da422f562408
-Gebruiker van bureau blad-virtualisatie;Overige;Hiermee kunnen gebruikers de toepassingen in een toepassings groep gebruiken.;1d18fff3-a72a-46b5-b4a9-0b38a3cd7e63
-Operator voor de gebruikers sessie van de bureau blad-Virtualisatiehost;Overige;Operator van de Uesr-sessie voor bureau blad-virtualisatie.;ea4bfff8-7fb4-485a-aadd-d4129a0ffaa6
-Mede werker van de werk ruimte bureau blad-virtualisatie;Overige;Inzender van de werk ruimte bureau blad-virtualisatie.;21efdde3-836f-432b-bf3d-3e8e734d4b2b
-Werkruimte lezer voor desktop-virtualisatie;Overige;Lezer van de werk ruimte bureau blad-virtualisatie.;0fa44ee9-7a7d-466b-9bb2-2bf446b1204d
-Back-uplezer van schijf;Overige;Biedt machtiging voor back-upkluis voor het uitvoeren van schijf back-ups.;3e5e47e6-65f7-47ef-90b5-e5dd4d455f24
-Schijf herstel operator;Overige;Biedt machtigingen voor het maken van een back-upkluis om schijf herstel uit te voeren.;b50d9833-a0cb-478e-945f-707fcc997c13
-Inzender voor schijf momentopnamen;Overige;Biedt machtiging voor back-upkluis voor het beheren van moment opnamen van schijven.;7efff54f-a5b4-42b5-a1c5-5411624893ce
-Inzender voor scheduler-taak verzamelingen;Overige;Hiermee kunt u scheduler-taak verzamelingen beheren, maar niet de toegang tot deze taken.;188a0f2f-5c9e-469b-ae67-2aa5ce574b94
-Operator Services hub;Overige;Met de operator Services hub kunt u alle Lees-, schrijf-en verwijder bewerkingen uitvoeren met betrekking tot services hub-connectors.;82200a5b-e217-47a5-b665-6d8765ee745b
+Ingebouwde rol,Catagorie,Id,
+Inzender,Algemeen,b24988ac-6180-42a0-ab88-20f7382dd24c,
+Eigenaar,Algemeen,8e3af657-a8ff-443c-a75c-2fe8c4bcb635,
+Lezer,Algemeen,acdd72a7-3385-48ef-bd42-f606fba81ae7,
+Beheerder van gebruikerstoegang,Algemeen,18d7d88d-d35e-4fb5-a5c3-7773c20a72d9,
+Inzender voor klassieke virtuele machines,Compute,d73bb868-a0df-4d4d-bd69-98a00b01fccb,
+Aanmelding voor de beheerder van de virtuele machine,Compute,1c0163c0-47e6-4577-8991-ea5c82e286e4,
+Inzender voor virtuele machines,Compute,9980e02c-c2be-4d73-94e8-173b1dc7cf3c,
+Gebruikers aanmelding voor de virtuele machine,Compute,fb879df8-f326-4884-b1cf-06f3ad86be52,
+Inzender voor CDN-eind punten,Netwerken,426e0c7f-0c7e-4658-b36f-ff54d6c29b45,
+CDN-eindpunt lezer,Netwerken,871e35f6-b5c1-49cc-a043-bde969a0f2cd,
+Inzender voor CDN-profiel,Netwerken,ec156ff8-a8d1-4d15-830c-5b80698ca432,
+CDN-profiel lezer,Netwerken,8f96442b-4075-438f-813d-ad51ab4019af,
+Inzender voor klassieke netwerken,Netwerken,b34d265f-36f7-4a0d-a4d4-e158ca92e90f,
+Inzender DNS-zone,Netwerken,befefa01-2a29-4197-83a8-272ff33ce314,
+Inzender voor netwerken,Netwerken,4d97b98b-1d4f-4787-a291-c67834d212e7,
+Inzender voor Privé-DNS-zone,Netwerken,b12aa53e-6015-4669-85d0-8515ebb3ae7f,
+Inzender Traffic Manager,Netwerken,a4b10055-b0c7-44c2-b00f-c7b5b3550cf7,
+AVERE-bijdrager,Storage,4f8fab4f-1852-4a58-a46a-8eaf358af14a,
+AVERE-operator,Storage,c025889f-8102-4ebf-b32c-fc0c6f0c6bd9,
+Back-upinzender,Storage,5e467623-bb1f-42f4-a55d-6e525e11384b,
+Back-upoperator,Storage,00c29273-979b-4161-815c-10b084fb9324,
+Back-uplezer,Storage,a795c7a0-d4a2-40c1-ae25-d81f01202912,
+Inzender voor klassieke opslag accounts,Storage,86e8f5dc-a6e9-4c67-9d15-de283e8eac25,
+Service functie voor de sleutel operator voor klassieke opslag accounts,Storage,985d6b00-f706-48f5-a6fe-d0ca12fb668d,
+Inzender Data Box,Storage,add466c9-e687-43fc-8d98-dfcf8d720be5,
+Data Box lezer,Storage,028f4ed7-e2a9-465e-a8f4-9c0ffdfdc027,
+Data Lake Analytics-ontwikkelaar,Storage,47b7735b-770E-4598-A7DA-8b91488b4c88,
+Lezer en gegevens toegang,Storage,c12c1c16-33a1-487b-954d-41c89c60f349,
+Inzender voor opslagaccounts,Storage,17d1049b-9a84-46fb-8f53-869881c3d3ab,
+Functie Service-sleutel operator van opslag account,Storage,81a9662b-bebf-436f-a333-f67b29880f12,
+Inzender voor Storage Blob-gegevens,Storage,ba92f5b4-2d11-453d-a403-e96b0029c9fe,
+Eigenaar van opslagblobgegevens,Storage,b7e6dc6d-f1e8-4753-8033-0f276bb0955b,
+Lezer voor opslagblobgegevens,Storage,2a2b9908-6ea1-4ae2-8e65-a410df84e7d1,
+Delegering van opslag-BLOB,Storage,db58b8e5-c6ad-4a2a-8342-4190687cbf4a,
+Inzender voor opslagbestandsgegevens via SMB-share,Storage,0c867c2a-1d8c-454a-a3db-ab2ea1bdc8bb,
+Inzender met verhoogde bevoegdheden voor opslagbestandsgegevens via SMB-share,Storage,a7264617-510b-434b-a828-9731dc254ea7,
+Lezer voor opslagbestandgegevens via SMB-share,Storage,aba4ae5f-2193-4029-9191-0cb91df5e314,
+Inzender voor opslag wachtrij gegevens,Storage,974c5e8b-45b9-4653-ba55-5f855dd0fb88,
+Processor voor gegevens berichten van de opslag wachtrij,Storage,8a0f0c08-91a1-4084-bc3d-661d67233fed,
+Afzender gegevens bericht van opslag wachtrij,Storage,c6a89b2d-59bc-44d0-9896-0f6e12d7b80a,
+Gegevens lezer van de opslag wachtrij,Storage,19e7f393-937e-4f77-808e-94535e297925,
+Inzender voor Azure Maps gegevens,Web,8f5e0ce6-4f7b-4dcf-bddf-e6f48634a204,
+Gegevens lezer Azure Maps,Web,423170ca-a8f6-4b0f-8487-9e4eb8f49bfa,
+Inzender Search Service,Web,7ca78c08-252a-4471-8644-bb5ff32d4ba0,
+Signaal/AccessKey-lezer,Web,04165923-9d83-45d5-8227-78b77b0a687e,
+Seingevings app-server (preview-versie),Web,420fcaa2-552c-430f-98ca-3264be4806c7,
+Inzender bijdrager,Web,8cf5e20a-e4b2-4e9d-b3a1-5ceb692c2761,
+Inzender server zonder signaal (preview-versie),Web,fd53cd77-2268-407a-8f46-7e7863d0f521,
+Eigenaar van de seingevings service (preview-versie),Web,7e4f1700-ea5a-4f59-8f37-079cfe29dce3,
+Signaal-service lezer (preview-versie),Web,ddde6b66-c0df-4114-a159-3618637b3035,
+Inzender voor webabonnementen,Web,2cc479cb-7b4d-49a8-b449-8c00fd0f0a4b,
+Website bijdrager,Web,de139f84-1756-47ae-9be6-808fbbe84772,
+AcrDelete,Containers,c2f4ef07-c644-48eb-af81-4b1b4947fb11,
+AcrImageSigner,Containers,6cef56e8-d556-48e5-a04f-b8e64114680f,
+AcrPull,Containers,7f951dda-4ed3-4680-a7ca-43fe172d538d,
+AcrPush,Containers,8311e382-0749-4cb8-b61a-304f252e45ec,
+AcrQuarantineReader,Containers,cdda3590-29a3-44f6-95f2-9f980659eb04,
+AcrQuarantineWriter,Containers,c8d4ff99-41c3-41a8-9f60-21dfdad59608,
+Rol van Cluster beheerder voor Azure Kubernetes-service,Containers,0ab0b1a8-8aac-4efd-b8c2-3ee1fb270be8,
+Gebruikersrol Azure Kubernetes service-cluster,Containers,4abbcc35-e782-43d8-92c5-2d3f1bd2253f,
+Rol van de Azure Kubernetes service-bijdrager,Containers,ed7f3fbd-7b88-4dd4-9017-9adb7ce333f8,
+RBAC-beheerder voor Azure Kubernetes service,Containers,3498e952-d568-435e-9b2c-8d77e338d7f7,
+De Azure Kubernetes service RBAC-cluster beheerder,Containers,b1ff04bb-8a4e-4dc4-8eb5-8693973ce19b,
+RBAC-lezer van de Azure Kubernetes service,Containers,7f6c6a51-bcf8-42ba-9220-52d62157d7db,
+RBAC-schrijver van Azure Kubernetes service,Containers,a7ffa36f-339b-4b5c-8bdf-e2c188b2c0eb,
+Rol van Cosmos DB-account lezer,Databases,fbdf93bf-df7d-467e-a4d2-9458aa1360c8,
+Cosmos DB-operator,Databases,230815da-be43-4aae-9cb4-875f7bd000aa,
+CosmosBackupOperator,Databases,db7b14f2-5adf-42da-9f96-f2ee17bab5cb,
+CosmosRestoreOperator,Databases,5432c526-bc82-444a-b7ba-57c5b0b5b34f,
+Inzender voor DocumentDB-accounts,Databases,5bd9cd88-fe45-4216-938b-f97437e15450,
+Inzender Redis Cache,Databases,e0f68234-74aa-48ed-b826-c38b57376e17,
+Inzender voor SQL-data base,Databases,9b7fa17d-e63e-47b0-bb0a-15c516ac86ec,
+Inzender voor SQL Managed instance,Databases,4939a1f6-9ae0-4e48-a1e0-f2cbe897382d,
+SQL-beveiligingsbeheerder,Databases,056cd41c-7e88-42e1-933e-88ba6a50c9c3,
+Inzender SQL Server,Databases,6d8ee4ec-f05a-4a1d-8b00-a9b17e38b437,
+Eigenaar van Azure Event Hubs-gegevens,Analyse,f526a384-b230-433a-b45c-95f59c4a2dec,
+Gegevens ontvanger van Azure Event Hubs,Analyse,a638d3c7-ab3a-418d-83e6-5f17a39d4fde,
+Afzender van Azure Event Hubs gegevens,Analyse,2b629674-e913-4c01-ae53-ef4638d8f975,
+Inzender Data Factory,Analyse,673868aa-7521-48a0-acc6-0f60742d39f5,
+Gegevens opschoner,Analyse,150f5e0c-0603-4f03-8c7f-cf70034c4e90,
+HDInsight-cluster operator,Analyse,61ed4efc-fab3-44fd-b111-e24485cc132a,
+Inzender voor HDInsight Domain Services,Analyse,8d8d5a11-05d3-4bda-a417-a08778121c7c,
+Inzender van Log Analytics,Analyse,92aaf0da-9dab-42b6-94a3-d43ce8d16293,
+Lezer van Log Analytics,Analyse,73c42c96-874c-492b-b04d-ab87d138a893,
+Controle sfeer liggen data curator,Analyse,8a3c2885-9b38-4fd2-9d99-91af537c1347,
+Gegevens lezer controle sfeer liggen,Analyse,ff100721-1b9d-43d8-af52-42b69c1272db,
+Controle sfeer liggen-gegevens bron beheerder,Analyse,200bba9e-f0c8-430f-892b-6f0794863803,
+Inzender van schemaregisters (preview),Analyse,5dffeca3-4936-4216-b2bc-10343a5abb25,
+Lezer van schemaregisters (preview),Analyse,2c56ea50-c6b3-40a6-83c0-9d98858bc7d2,
+Toegang tot Block Chain-leden knooppunt (preview-versie),Blockchain,31a002a1-acaf-453e-8a5b-297c9ca1ea24,
+Inzender Cognitive Services,AI + machine learning,25fbc0a9-bd7c-42a3-aa1a-3b75d497ee68,
+Cognitive Services Custom Vision Inzender,AI + machine learning,c1ff6cc2-C111-46fe-8896-e0ef812ad9f3,
+Implementatie van Cognitive Services Custom Vision,AI + machine learning,5c4089e1-6d96-4d2f-b296-c1bc7137275f,
+Cognitive Services Custom Vision Labeler,AI + machine learning,88424f51-ebe7-446f-bc41-7fa16989e96c,
+Custom Vision lezer Cognitive Services,AI + machine learning,93586559-c37d-4a6b-ba08-b9f0940c2d73,
+Cognitive Services Custom Vision trainer,AI + machine learning,0a5ae4ab-0d65-4eeb-be61-29fc9b54394b,
+Cognitive Services gegevens lezer (preview-versie),AI + machine learning,b59867f0-fa02-499b-be73-45a86b5b3e1c,
+Cognitive Services metrics Advisor-beheerder,AI + machine learning,cb43c632-a144-4ec5-977c-e80c4affc34a,
+Cognitive Services QnA Maker editor,AI + machine learning,f4cc2bf9-21be-47a1-bdf1-5c5804381025,
+QnA Maker lezer Cognitive Services,AI + machine learning,466ccd10-b268-4a11-b098-b4849f024126,
+Cognitive Services gebruiker,AI + machine learning,a97b65f3-24c7-4388-baec-2e87135dc908,
+Beheerder apparaat bijwerken,Internet of things,02ca0879-e8e4-47a5-a61e-5c618b76e64a,
+Beheerder van de inhoud van het apparaat bijwerken,Internet of things,0378884a-3af5-44ab-8323-f5b22f9f3c98,
+Lezer inhoud apparaat bijwerken,Internet of things,d1ee9a80-8b14-47f0-bdc2-f4a351625a7b,
+Beheerder voor update-implementaties van apparaten,Internet of things,e4237640-0e3d-4a46-8fda-70bc94856432,
+Lezer voor update-implementaties van apparaat,Internet of things,49e2f5d2-7741-4835-8efa-19e1fe35e47f,
+Apparaat bijwerken lezer,Internet of things,e9dba6fb-3d52-4cf0-bce3-f06ce71b9e0f,
+Externe rendering-beheerder,Gemengde realiteit,3df8b902-2a6f-47c7-8cc5-360e9b272a7e,
+Client voor externe Rendering,Gemengde realiteit,d39065c4-c120-43c9-ab0a-63eed9795f0a,
+Inzender voor ruimtelijke ankers,Gemengde realiteit,8bbe83f1-e2a6-4df7-8cb4-4e04d4e5c827,
+Eigenaar van ruimtelijk ankers,Gemengde realiteit,70bbe301-9835-447d-afdd-19eb3167307c,
+Lezer van ruimtelijk ankers-account,Gemengde realiteit,5d51204f-eb77-4b1c-b86a-2ec626c49413,
+Inzender van API Management-service,Integratie,312a565d-c81f-4fd8-895a-4e21e48d571c,
+Functie API Management service operator,Integratie,e022efe7-f5ba-4159-bbe4-b44f577e9b61,
+API Management functie Service lezer,Integratie,71522526-b88f-4d52-b57f-d31fc3546d0d,
+Eigenaar van app-configuratie gegevens,Integratie,5ae67dd6-50cb-40e7-96ff-dc2bfa4b606b,
+Gegevens lezer app-configuratie,Integratie,516239f1-63e1-4d78-a4de-a74fb236a071,
+Gegevens eigenaar Azure Service Bus,Integratie,090c5cfd-751d-490a-894a-3ce6f1109419,
+Gegevens ontvanger Azure Service Bus,Integratie,4f6d3b9b-027b-4f4c-9142-0e5a2a2247e0,
+Afzender van Azure Service Bus gegevens,Integratie,69a216fc-b8fb-44d8-bc22-1f3c2cd27a39,
+Registratie-eigenaar Azure Stack,Integratie,6f12a6df-dd06-4f3e-bcb1-ce8be600526a,
+EventGrid-bijdrager,Integratie,1e241071-0855-49ea-94dc-649edcd759de,
+EventGrid EventSubscription-bijdrager,Integratie,428e0ff0-5e57-4d9c-a221-2c70d0e0a443,
+EventGrid EventSubscription-lezer,Integratie,2414bbcf-6497-4faf-8c65-045460748405,
+Inzender voor FHIR-gegevens,Integratie,5a1fc7df-4bf1-4951-a576-89034ee01acd,
+FHIR-gegevens exporteur,Integratie,3db33094-8700-4567-8da5-1501d4e7e843,
+Gegevens lezer FHIR,Integratie,4c8d0bbc-75d3-4935-991f-5f3c56d81508,
+FHIR-gegevens schrijver,Integratie,3f88fce4-5892-4214-ae73-ba5294559913,
+Inzender Integratieserviceomgeving,Integratie,a41e2c5b-bd99-4a07-88f4-9bf657a760b8,
+Integratieserviceomgeving-ontwikkelaar,Integratie,c7aa55d3-1abb-444a-a5ca-5e51e485d6ec,
+Inzender voor Intelligent Systems-account,Integratie,03a6d094-3444-4b3d-88af-7477090a9e5e,
+Inzender voor logische apps,Integratie,87a39d53-fc1b-424a-814c-f7e04687dc9e,
+Logische app-operator,Integratie,515c2055-d9d4-4321-b1b9-bd0c9a0f79fe,
+Inzender beheerde identiteit,Identiteit,e40ec5ca-96e0-45a2-b4ff-59039f2c2b59,
+Beheerde identiteits operator,Identiteit,f1a07417-d97a-45cb-824c-7a7467783830,
+Bijdrager aan verklaring,Beveiliging,bbf86eb8-f7b4-4cce-96e4-18cddf81d86e,
+Attestation-lezer,Beveiliging,fd1bd22b-8476-40bc-a0bc-69b95687b9f3,
+Azure Sentinel Contributor,Beveiliging,ab8e14d6-4a74-4a29-9ba8-549422addade,
+Azure Sentinel Reader,Beveiliging,8d289c81-5878-46d4-8554-54e1e3d8b5cb,
+Azure Sentinel Responder,Beveiliging,3e150937-b8fe-4cfb-8069-0eaf05ecd056,
+Key Vault beheerder,Beveiliging,00482a5a-887f-4fb3-b363-3b7fe8e74483,
+Key Vault-certificerings medewerker,Beveiliging,a4417e6f-fecd-4de8-b567-7b0420556985,
+Inzender Key Vault,Beveiliging,f25e0fa2-a7c8-4377-a976-54943a77a395,
+Crypto medewerker Key Vault,Beveiliging,14b46e9e-c2b7-41b4-b07b-48a6ebf60603,
+Versleutelings gebruiker van crypto grafie-service Key Vault,Beveiliging,e147488a-f6f5-4113-8e2d-b22465e65bf6,
+Gebruiker van crypto grafie Key Vault,Beveiliging,12338af0-0e69-4776-bea7-57ae8d297424,
+Key Vault lezer,Beveiliging,21090545-7ca7-4776-b22c-e363652d74d2,
+Functionaris voor Key Vault geheimen,Beveiliging,b86a8fe4-44ce-4948-aee5-eccb2c155cd7,
+Key Vault geheimen gebruiker,Beveiliging,4633458b-17de-408a-b874-0445c86b69e6,
+Beheerde HSM-Inzender,Beveiliging,18500a29-7fe2-46b2-a342-b16a415e101d,
+Beveiligingsbeheerder,Beveiliging,fb1c8493-542b-48eb-b624-b4c8fea62acd,
+Inzender voor beveiligings beoordeling,Beveiliging,612c2aa1-cb24-443b-ac28-3ab7272de6f5,
+Beveiligings beheer (verouderd),Beveiliging,e3d13bf0-dd5a-482e-ba6b-9b8433878d10,
+Beveiligingslezer,Beveiliging,39bc4728-0917-49c7-9d2c-d95423bc2eb4,
+DevTest Labs-gebruiker,DevOps,76283e04-6283-4c54-8f91-bcf1374a3c64,
+Lab-Maker,DevOps,b97fb8bc-a8b2-4522-a38b-dd33c7e65ead,
+Inzender voor Application Insights onderdelen,Controle,ae349356-3a1b-4a5e-921d-050484c6347e,
+Application Insights Snapshot Debugger,Controle,08954f03-6346-4c2e-81c0-ec3a5cfae23b,
+Inzender bewaken,Controle,749f88d5-cbae-40b8-bcfc-e573ddc772fa,
+De uitgever van metrische gegevens controleren,Controle,3913510d-42f4-4e42-8a64-420c390055eb,
+Bewakings lezer,Controle,43d0d8ad-25c7-4714-9337-8ba259a9fe05,
+Inzender voor werkmappen,Controle,e8ddcd69-c73f-4f9f-9844-4100522f16ad,
+Werkmap lezer,Controle,b279062a-9be3-42a0-92ae-8b3cf002ec4d,
+Automation-taak operator,Beheer + governance,4fe576fe-1146-4730-92eb-48519fa6bf9f,
+Automation-operator,Beheer + governance,d3881f73-407a-4167-8283-e981cbba0404,
+Automation-Runbook-operator,Beheer + governance,5fb5aef8-1081-4b8e-bb16-9d5d0385bab5,
+Onboarding van met Azure verbonden computer,Beheer + governance,b64e21ea-ac4e-4cdf-9dc9-5b892992bee7,
+Resource beheerder van Azure Connected machine,Beheer + governance,cd570a14-e51a-42ad-bac8-bafd67325302,
+Facturerings lezer,Beheer + governance,fa23ad8b-c56e-40d8-ac0c-ce449e1d2c64,
+Blauwdrukinzender,Beheer + governance,41077137-e803-4205-871c-5a86e6a753b4,
+Blauwdrukoperator,Beheer + governance,437d2ced-4a38-4302-8479-ed2bcb43d090,
+Inzender Cost Management,Beheer + governance,434105ed-43f6-45c7-a02f-909b2ba83430,
+Cost Management lezer,Beheer + governance,72fafb9e-0641-4937-9268-a91bfd8191a3,
+Beheerder hiërarchie-instellingen,Beheer + governance,350f8d15-c687-4448-8ae1-157740a3936d,
+Kubernetes-cluster-Azure Arc-onboarding,Beheer + governance,34e09817-6cbe-4d01-b1a2-e0eac5743d41,
+Rol Inzender beheerde toepassing,Beheer + governance,641177b8-a67a-45b9-a033-47bc880bb21e,
+Rol beheerde toepassings operator,Beheer + governance,c7393b34-138c-406f-901b-d8cf2b17e6ae,
+Lezer voor beheerde toepassingen,Beheer + governance,b9331d33-8a36-4f8c-b097-4f54124fdb44,
+Rol voor registratie toewijzing beheerde services verwijderen,Beheer + governance,91c1777a-f3dc-4fae-b103-61d183457e46,
+Inzender beheer groep,Beheer + governance,5d58bcaf-24a5-4b20-bdb6-eed9f69fbe4c,
+Lezer beheer groep,Beheer + governance,ac63b705-f282-497d-ac71-919bf39d939d,
+Nieuwe Inzender voor Relic APM-account,Beheer + governance,5d28c62d-5b37-4476-8438-e587778df237,
+Policy Insights Data Writer (preview-versie),Beheer + governance,66bb4e9e-b016-4a94-8249-4c0511c2be84,
+Rol van operator voor quotum aanvragen,Beheer + governance,0e5f05e5-9ab9-446b-b98d-1e2157c94125,
+Reserve ring-verkoper,Beheer + governance,f7b75c60-3036-4b75-91c3-6b41c27c1689,
+Inzender voor resourcebeleid,Beheer + governance,36243c78-bf99-498c-9df9-86d9f8d28608,
+Site Recovery-inzender,Beheer + governance,6670b86e-a3f7-4917-ac9b-5d6ab1be4567,
+Site Recovery-operator,Beheer + governance,494ae006-db33-4328-bf46-533a6560a3ca,
+Site Recovery-lezer,Beheer + governance,dbaa88c4-0c30-4179-9fb3-46319faa6149,
+Inzender voor ondersteunings aanvragen,Beheer + governance,cfd33db0-3dd1-45e3-aa9d-cdbdf3b6f24e,
+Inzender labelen,Beheer + governance,4a9ae827-6dc8-4573-8ac7-8239d42aa03f,
+Azure Digital Apparaatdubbels-gegevens eigenaar,Overige,bcd981a7-7f74-457b-83e1-cceb9e632ffe,
+Azure Digital Apparaatdubbels-gegevens lezer,Overige,d57506d4-4c8d-48b1-8587-93c323f6a5a3,
+BizTalk-bijdrager,Overige,5e3c6656-6cfa-4708-81fe-0de47ac73342,
+Inzender voor bureau blad-Virtualisatiehost,Overige,86240b0e-9422-4c43-887b-b61143f32ba8,
+Lezer van toepassings groep voor desktop-virtualisatie,Overige,aebf23d0-b568-4e86-b8f9-fe83a2c6ab55,
+Inzender voor bureau blad-virtualisatie,Overige,082f0a83-3be5-4ba1-904c-961cca79b387,
+Inzender voor RD Virtualization hostgroep,Overige,e307426c-f9b6-4e81-87de-d99efb3c32bc,
+Lezer van hostgroep voor desktop-virtualisatie,Overige,ceadfde2-b300-400a-ab7b-6143895aa822,
+Desktop Virtualization-lezer,Overige,49a72310-ab8d-41df-bbb0-79b649203868,
+Host-operator voor bureau blad-Virtualisatiehost,Overige,2ad6aaab-ead9-4eaa-8ac5-da422f562408,
+Gebruiker van bureau blad-virtualisatie,Overige,1d18fff3-a72a-46b5-b4a9-0b38a3cd7e63,
+Operator voor de gebruikers sessie van de bureau blad-Virtualisatiehost,Overige,ea4bfff8-7fb4-485a-aadd-d4129a0ffaa6,
+Mede werker van de werk ruimte bureau blad-virtualisatie,Overige,21efdde3-836f-432b-bf3d-3e8e734d4b2b,
+Werkruimte lezer voor desktop-virtualisatie,Overige,0fa44ee9-7a7d-466b-9bb2-2bf446b1204d,
+Back-uplezer van schijf,Overige,3e5e47e6-65f7-47ef-90b5-e5dd4d455f24,
+Schijf herstel operator,Overige,b50d9833-a0cb-478e-945f-707fcc997c13,
+Inzender voor schijf momentopnamen,Overige,7efff54f-a5b4-42b5-a1c5-5411624893ce,
+Inzender voor scheduler-taak verzamelingen,Overige,188a0f2f-5c9e-469b-ae67-2aa5ce574b94,
+Operator Services hub,Overige,82200a5b-e217-47a5-b665-6d8765ee745b,
